@@ -26,3 +26,20 @@ Feel free to contribute to this project to enhance its educational value. You ca
 Remember, data privacy is crucial. Use this project to learn about the importance of informed consent and responsible data handling.
 
 Note: Please use this app responsibly and ethically. This is a learning tool, and its use should always be aligned with ethical considerations.
+
+IMPORTANT:
+Flask==2.2.3
+Flask-SQLAlchemy==3.0.3
+Flask-Cors==3.0.10
+datetime==5.0
+This requirements.txt file includes the following packages:
+
+Flask (2.2.3): The core Flask web framework.
+Flask-SQLAlchemy (3.0.3): An extension that adds support for SQLAlchemy, a Python SQL toolkit and Object-Relational Mapper (ORM), to your Flask application.
+Flask-Cors (3.0.10): A Flask extension for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible.
+datetime (5.0): The built-in Python module for working with dates and times.
+To install these dependencies, you can use the following command in your terminal (make sure your virtual environment is activated):
+
+
+
+pip install -r requirements.txt
